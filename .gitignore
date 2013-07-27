@@ -73,3 +73,6 @@ src/rapidapp/composer.lock
 src/rapidapp/webroot/cache_js/*
 !src/rapidapp/webroot/cache_css/empty
 src/rapidapp/webroot/cache_css/*
+
+!empty
+

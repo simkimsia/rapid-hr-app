@@ -1,0 +1,75 @@
+*.kpf
+.idea
+pmip
+*.tmproj
+.DS_Store
+*.DS_Store
+*.sublime-project
+*.sublime-workspace
+tags
+.dropbox
+
+src/plugins
+src/vendors
+
+## Code coverage reports and other CI related output files from build
+build/logs/*
+build/coverage/*
+build/code-browser/*
+build/api/*
+build/phploc-reports/*
+build/doc.html
+
+## Config files
+src/rapidapp/Config/database.php
+src/rapidapp/Config/core.php
+src/rapidapp/Config/email.php
+src/rapidapp/Config/Upload/file_storages.ini
+
+## images files in uploads
+src/rapidapp/webroot/uploads/story_images/*
+src/rapidapp/webroot/uploads/story_files/*
+src/rapidapp/webroot/uploads/Story/*
+
+## Temporary files
+src/rapidapp/tmp/cache/models/myapp_cake_*
+src/rapidapp/tmp/cache/persistent/myapp_cake_*
+src/rapidapp/tmp/cache/views/myapp_cake_*
+src/rapidapp/tmp/logs/*.log
+src/rapidapp/tmp/sessions/myapp_cake_*
+src/rapidapp/tmp/tests/myapp_cake_*
+
+src/lib/Cake/Console/Templates/skel/tmp/cache/models/myapp_cake_*
+src/lib/Cake/Console/Templates/skel/tmp/cache/persistent/myapp_cake_*
+src/lib/Cake/Console/Templates/skel/tmp/cache/views/myapp_cake_*
+src/lib/Cake/Console/Templates/skel/tmp/logs/*.log
+src/lib/Cake/Console/Templates/skel/tmp/sessions/myapp_cake_*
+src/lib/Cake/Console/Templates/skel/tmp/tests/myapp_cake_*
+
+## ignore libraries related files
+src/rapidapp/Vendor/autoload.php
+src/rapidapp/Vendor/aws
+src/rapidapp/Vendor/composer
+src/rapidapp/Vendor/guzzle
+src/rapidapp/Vendor/symfony
+
+## ignore Plugin
+src/rapidapp/Plugin/AclExtras
+src/rapidapp/Plugin/AssetCompress
+src/rapidapp/Plugin/ClearCache
+src/rapidapp/Plugin/Migrations
+src/rapidapp/Plugin/OpenGraphCake
+src/rapidapp/Plugin/PermissionsExtras
+src/rapidapp/Plugin/Upload
+src/rapidapp/Plugin/UtilityBehaviors
+src/rapidapp/Plugin/UtilityComponents
+src/rapidapp/Plugin/UtilityLib
+
+## composer.lock
+src/rapidapp/composer.lock
+
+## ignore all the AssetCompress cached files
+!src/rapidapp/webroot/cache_js/empty
+src/rapidapp/webroot/cache_js/*
+!src/rapidapp/webroot/cache_css/empty
+src/rapidapp/webroot/cache_css/*

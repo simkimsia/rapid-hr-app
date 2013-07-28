@@ -58,9 +58,7 @@ src/rapidapp/Plugin/AclExtras
 src/rapidapp/Plugin/AssetCompress
 src/rapidapp/Plugin/ClearCache
 src/rapidapp/Plugin/Migrations
-src/rapidapp/Plugin/OpenGraphCake
 src/rapidapp/Plugin/PermissionsExtras
-src/rapidapp/Plugin/Upload
 src/rapidapp/Plugin/UtilityBehaviors
 src/rapidapp/Plugin/UtilityComponents
 src/rapidapp/Plugin/UtilityLib

@@ -1,0 +1,6 @@
+[submodule "src/rapidapp/Plugin/Users"]
+	path = src/rapidapp/Plugin/Users
+	url = git@github.com:CakeDC/users.git
+[submodule "src/rapidapp/Plugin/Utils"]
+	path = src/rapidapp/Plugin/Utils
+	url = git@github.com:CakeDC/utils.git
